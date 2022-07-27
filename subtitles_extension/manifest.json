@@ -1,0 +1,12 @@
+{
+    "name": "Properly working subtitles for islcollective",
+    "version": "0.1.0",
+    "description": "",
+    "content_scripts": [
+      {
+        "matches": ["https://*.islcollective.com/*"],
+        "css": ["styleForExtension.css"]
+      }
+    ],
+    "manifest_version": 3
+}

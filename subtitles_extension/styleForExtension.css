@@ -1,0 +1,4 @@
+.isl-video-property-selector > div {
+    overflow-y: scroll; 
+    height: 350px;
+}
